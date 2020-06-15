@@ -10,7 +10,7 @@ const amount = document.getElementById('amount');
 const localStorageTransactions = JSON.parse(localStorage.getItem('transactions'));
 
 let transactions =
-    localStorage.getItem('transaction') !== null ?
+    localStorage.getItem('transactions') !== null ?
         localStorageTransactions : [];
 
 function addTransaction(e) {
